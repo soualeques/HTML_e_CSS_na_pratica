@@ -1,0 +1,25 @@
+/* alguns elementos possuem padding e margin nativos. Por esse motivo,
+ vamos iniciar resetando a margin e o padding de nossa página. */
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* estamos definindo que a fonte (letra) dos elementos que tiverem a class container-principal
+ será da família Verdanae a cor será uma tonalidade de cinza (#777). */
+.container-principal
+{
+    font-family: 'verdana';
+    color: #777;
+}
+
+/* definir as propriedades do topo */
+header
+{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    position: relative;
+    top: 0px;
+}
