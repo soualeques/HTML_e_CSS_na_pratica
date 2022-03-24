@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desenvolvimento do meu site durante o curso Inovando
+    com HTML e CSS pela Fundação Bradesco">
+    <meta name="keywords" content="Fundação Bradesco, curso HTML e CSS">
+    <meta name="author" content="Alex Nascimento do Carmo">
+    <link rel="stylesheet" type="text/css" href="/CSS/style.css">
+    <title>Code - Contato</title>
+</head>
+<body>
+    <!--Existem várias tags que podem servir de container para outros elementos,
+        como <section>, <article> e <main>. Como estamos familiarizados com a tag <div>,
+        usaremos essa tag como container principal de nosso site-->
+    <div class="container-principal" id="topo" >
+        <header>
+            <div class="logo">
+                <img src="/imagens/logo.png" alt="logo do site">
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Página Inicial</a></li>
+                    <li><a href="clientes.html">clientes</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="#topo">contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="img-titulo"><img src="/imagens/contato.png" alt="imagem de contato"></div>
+    </div>
+
+    <section id="txt-contato">
+        <form action="post" name="meu_form" id="meu_form">
+            <p class="nome">
+                <label for="nome">Nome: </label>
+                <input type="text" nome="nome" id="nomeId" required="required" placeholder="Ex: fulado da silva">
+            </p>
+            <p class="fone">
+                <label for="telefone">Telefone: </label>
+                <input type="tel" id="telId" nome="telefone" placeholder="(xx)x xxxx-xxxx">
+            </p>
+            <p class="email">
+                <label for="email">E-mail: </label>
+                <input type="email" id="mailId" name="email" required="required" placeholder="EX: fulanodetal@mail.com">
+            </p>
+            <p class="txt-area">
+                <label for="txt-area">
+                    <textarea name="txt-area" id="txt_a" cols="30" rows="10" placeholder="Mensagem" required="required"></textarea>
+                </label>
+
+            </p>
+            <button type="submit" form="meu_form">enviar</button>
+        </form>
+        <div id="conta-data">
+            <h4>Code - Desenvolvimento de sites</h4>
+            <h5><img src="/imagens/icoadress.png" alt="endereço"><br>carlópolis - PR</h5>
+            <h5><img src="/imagens/icoTelefone.png" alt="telefone"><br>+55(41) 9 9772-5923</h5>
+            <h5><img src="/imagens/icoinsta.png" alt="instagram"><br>@soualeques</h5>
+        </div>
+
+    </section>
+</body>
+</html>

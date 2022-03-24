@@ -27,3 +27,14 @@ em - equivale a, aproximadamente, 16 px
 % – porcentagem
 cm – centímetro
 mm – milímetro
+
+---------------------------------------------------------------------------------------------------------------------------
+POSITION
+FIXED - O valor fixed fixa o elemento nas coordenadas que atribuirmos.
+Mesmo com a rolagem da tela, o elemento permanece FIXO na posição definida.
+
+RELATIVE - O ponto inicial para o cálculo de elementos com position definida
+como relative é o canto superior esquerdo do próprio elemento.
+
+ABSOLUTE - Diferente do relative, o valor absolute tem como ponto inicial
+o elemento em que ele está inserido – seu pai.
