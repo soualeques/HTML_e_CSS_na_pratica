@@ -90,8 +90,8 @@ section#banner img
     background: rgba(3, 195, 253, 0.8);
     z-index: 9999;
     opacity: 1;
-    -webkit-transition: opacity 400ms ease-in;
-    -moz-transition: opacity 400ms ease-in;
+    /*-webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;*/
     transition: opacity 400ms ease-in;
     pointer-events: none;
     display: none;
@@ -108,8 +108,8 @@ section#banner img
     width: 500px;
     margin: 10% auto;
     padding: 5px 20px 13px 20px;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
+    /*-webkit-border-radius: 12px;
+    -moz-border-radius: 12px;*/
     border-radius: 10px;
     background-color: #fff;
 }
@@ -136,8 +136,8 @@ section#banner img
     width: 24px;
     text-decoration: none;
     font-weight: bold;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
+    /*-webkit-border-radius: 12px;
+    -moz-border-radius: 12px;*/
     border-radius: 12px;
 }
 .close:hover
